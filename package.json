@@ -1,0 +1,24 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "This app uses spotify's authorization code with Oauth to recreate the basic functionality of spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammyk118/spotify-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammyk118/spotify-clone/issues"
+  },
+  "homepage": "https://github.com/sammyk118/spotify-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
+  }
+}
