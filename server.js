@@ -16,9 +16,9 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
 }
-// app.get('/', (req, res) => {
-//   res.send('Hello World!')
-// })
+app.get('/test', (req, res) => {
+  res.send('Hello World!')
+})
 
 app.post("/login", (req, res) => {
 
