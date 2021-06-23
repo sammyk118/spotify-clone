@@ -2,9 +2,18 @@ import React from "react";
 
 function LandingPage(props) {
   
+  function handleButtonClick(event) {
+    event.preventDefault();
+
+  }
+
   return (
     <div>
-        <button>test</button>
+      <button
+        onClick={handleButtonClick}
+      >
+        test
+      </button>
     </div>
   );
 }
